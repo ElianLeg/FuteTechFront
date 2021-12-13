@@ -1,0 +1,36 @@
+:root{
+    --blanco: #fff;
+    --negro:#000;
+    --azul:#1e2438;
+    --azulClaro:#09CDD6;
+    --fuentePrincipal:'Roboto Condensed', sans-serif;
+}
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body{
+    background:linear-gradient(to  top, #000 , #1e2438 )fixed;
+  
+}
+.logo__img{
+    height: 300px;
+    float: left;
+    
+
+
+}
+.navegacion__a{
+    color: #fff;
+    font-size: 25px;
+    text-decoration: none;
+    float: right;
+    margin: 2rem;
+    
+}
+.navegacion__a:hover{
+    color: var(--azulClaro);
+}
